@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+h1 {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    height: 25px;
+    width: 25px;
+}
+.medalhas{
+    height:20px ;
+    width:20px;
+}
+
+td{
+    text-align: center;
+}
+
+.paises{
+    text-align: center;
+    width: 200px;
+}
+
+td{
+    width: 30px;
+}
+
+td:nth-child(1){
+ width: 15px;
+}
+
+img:hover{
+    transform: scale(2.3);
+}
+
+td:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    background-color: bisque;
+    
+}
+ td:nth-child(2):hover{
+    background-color: white
+ }
+
